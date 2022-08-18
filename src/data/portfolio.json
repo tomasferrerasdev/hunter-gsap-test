@@ -1,0 +1,32 @@
+{
+  "offer": [
+    {
+      "class": "right",
+      "title": "tragos",
+      "slug": "personal",
+      "text": "follow me",
+      "no": "1"
+    },
+    {
+      "class": "left",
+      "title": "tapeo",
+      "slug": "imaginari",
+      "text": "beyond",
+      "no": "2"
+    },
+    {
+      "class": "right",
+      "title": "historia",
+      "slug": "first-light",
+      "text": "a state",
+      "no": "3"
+    },
+    {
+      "class": "left",
+      "title": "historia",
+      "slug": "human",
+      "text": "who is",
+      "no": "4"
+    }
+  ]
+}
