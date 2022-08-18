@@ -8,7 +8,6 @@ import Layout from "../components/layout/layout";
 import ServiceContent from "../components/serviceContent";
 import Viewport from "../components/layout/viewport";
 
-
 const useStyles = makeStyles((theme) => ({
   gridDiv: {
     paddingTop: "20vh",
@@ -60,7 +59,6 @@ function Team(props) {
     return () => {
       document.body.style.overflowY = "unset";
       document.body.style.height = "unset";
-
     };
   });
 
@@ -69,13 +67,15 @@ function Team(props) {
       <Layout pageTitle="404 - Page not found"></Layout>
       <Viewport>
         <ServiceContent>
-        <span className="content--inner__detail header__container threeColumn__container"></span>
+          <span className="content--inner__detail header__container threeColumn__container"></span>
           <Grid container className={classes.gridDiv} justify="center">
             <Grid item xs={12} sm={10} lg={8}>
               <h1 className="font__big">/404 </h1>
-              <h1>Something went wrong here.</h1>
-              <p> <Link to="/">Please go back</Link> </p>
-    
+              <h1>Ooops! algo salio mal</h1>
+              <p>
+                {" "}
+                <Link to="/">Volver al inicio</Link>{" "}
+              </p>
             </Grid>
           </Grid>
         </ServiceContent>

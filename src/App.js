@@ -36,7 +36,8 @@ function App() {
                   >
                     <Switch location={location}>
                       <Route exact path="/" component={Home} />
-                      <Route path="/historia" component={Historia} />
+                      {/*<Route path="/historia" component={Historia} />*/}
+
                       <Route path="/nosotros" component={About} />
                       <Route path="/404" component={NotFound} />
                       <Redirect to="/404" />
